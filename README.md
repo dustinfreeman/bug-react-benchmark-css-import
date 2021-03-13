@@ -1,6 +1,6 @@
 # bug-react-benchmark-css-import
 
-This is a minimal example showing css import issues I'm having with react-benchmark and webpack. Please help!?
+This is a minimal example showing css import issues I'm having with [react-benchmark](https://github.com/Rowno/react-benchmark), which uses webpack. Please help!?
 
 For normal development, I use yarn, and I can start the app successfully with:
 
@@ -9,13 +9,13 @@ $ yarn
 $ yarn start
 ```
 
-I am trying to run [react-benchmark](https://github.com/Rowno/react-benchmark) like so:
+However, when I attempt to run the benchmark like so:
 
 ```
 $ react-benchmark --debug src/index.tsx
 ```
 
-and get the following import error:
+I get the following import error:
 
 ```
 ✖ Compiling bundle
