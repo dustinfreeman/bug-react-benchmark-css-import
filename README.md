@@ -12,7 +12,7 @@ $ yarn start
 However, when I attempt to run the benchmark like so:
 
 ```
-$ react-benchmark --debug src/index.tsx
+$ react-benchmark --debug src/test.tsx
 ```
 
 I get the following import error:
